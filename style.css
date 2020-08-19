@@ -1,0 +1,129 @@
+body {
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.top-body {}
+
+.middle-body {
+    height: 233px;
+    margin-top: 89px;
+    display: block;
+    text-align: -webkit-center;
+}
+
+@media only screen and (max-height: 768px) {
+    .middle-body {
+        margin-top: 47px;
+    }
+}
+
+.google-logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    text-align: -webkit-center;
+}
+
+.form-form {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 584px;
+}
+
+.input-form {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.inner-div-input {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.magnifier-magnifier {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.inner-div-magnifier {
+    margin: auto;
+    display: block;
+}
+
+.magnifier {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.magnifier svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.microphone {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.microphone-microphone {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+}
+
+.inner-div-microphone {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.input-input {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.q {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -5px;
+    font-size: 16px;
+}
