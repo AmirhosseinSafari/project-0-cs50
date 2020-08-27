@@ -5,11 +5,27 @@ body {
     font-size: small;
 }
 
-.top-body {}
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+.top-body {
+    height: 47px;
+    text-align: right;
+    padding: 15px 20px;
+}
+
+.top-body a {
+    margin: 0 5px;
+}
 
 .middle-body {
     height: 233px;
-    margin-top: 89px;
+    margin-top: -15px !important;
     display: block;
     text-align: -webkit-center;
 }
@@ -23,7 +39,8 @@ body {
 .google-logo {
     height: 92px;
     width: 272px;
-    padding-top: 109px;
+    padding-top: 86px;
+    padding-bottom: 18px;
     text-align: -webkit-center;
 }
 
@@ -126,4 +143,47 @@ body {
     -webkit-tap-highlight-color: transparent;
     margin-top: -5px;
     font-size: 16px;
+}
+
+.search-buttons {
+    display: block;
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    width: 487px;
+    text-align: -webkit-center;
+    margin-left: 3px;
+}
+
+input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.offered-in {
+    font-size: small;
+    margin-top: -11px;
+    display: -webkit-inline-box;
+}
+
+.text-offered-in {
+    display: inline-block;
+    line-height: 28px;
+}
+
+.language-offered-in {
+    padding: 7px 3px;
 }
