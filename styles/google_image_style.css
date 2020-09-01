@@ -204,6 +204,11 @@ input[type="submit"]:hover {
     padding: 0;
 }
 
+.search-button:focus {
+    border: none;
+    outline: none;
+}
+
 .inner-search-button {
     background: none;
     color: #4285f4;
