@@ -47,7 +47,7 @@ a:hover {
 .form-form {
     position: relative;
     margin: 0 auto;
-    padding-top: 6px;
+    padding-top: 7px;
     width: 584px;
 }
 
@@ -59,7 +59,7 @@ a:hover {
     border-radius: 24px;
     height: 44px;
     margin: 0 auto;
-    width: 482px;
+    width: 534px;
 }
 
 .inner-div-input {
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .magnifier {
-    margin-top: 3px;
+    margin-top: 0px;
     color: #9aa0a6;
     height: 20px;
     width: 20px;
@@ -182,8 +182,67 @@ input[type="submit"]:hover {
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
     white-space: nowrap;
+    text-align: right;
+    margin-top: -37px;
+    margin-right: 6px;
+    margin-bottom: 14px;
+    letter-spacing: -0.01px;
 }
 
 .image-part-container {
     width: 272px;
+}
+
+.search-button {
+    flex: 0 0 auto;
+    padding-right: 13px;
+    height: 44px;
+    width: 44px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.inner-search-button {
+    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
+.search-icon-container {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+    margin-top: -5px;
+    margin-right: -3px;
+}
+
+svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.camera-camera {
+    margin-top: -5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+}
+
+.camera-icon {
+    height: 24px;
+    width: 24px;
+    background: url('http://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png') 0 0 no-repeat;
+    background-size: 24px;
 }
