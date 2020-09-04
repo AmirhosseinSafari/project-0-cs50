@@ -34,10 +34,17 @@ body {
     width: 100%;
 }
 
-.top-body>a {
+.link-to-google-search {
     text-align: right;
     padding: 15px;
+}
+
+a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .top-body-logo-container {
