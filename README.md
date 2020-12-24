@@ -1,4 +1,6 @@
 ## Project 0 for Harvard CS50’s Web Programming with Python and JavaScript.
+# TODO:
+# 1. ...
 
 Hello World!
 
